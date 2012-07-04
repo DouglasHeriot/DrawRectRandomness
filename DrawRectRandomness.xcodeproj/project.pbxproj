@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53AD54915A48BD3009A82C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53AD54815A48BD3009A82C6 /* Cocoa.framework */; };
+		A53AD55315A48BD3009A82C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A53AD55115A48BD3009A82C6 /* InfoPlist.strings */; };
+		A53AD55515A48BD3009A82C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AD55415A48BD3009A82C6 /* main.m */; };
+		A53AD55915A48BD3009A82C6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A53AD55715A48BD3009A82C6 /* Credits.rtf */; };
+		A53AD55C15A48BD3009A82C6 /* DHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AD55B15A48BD3009A82C6 /* DHDAppDelegate.m */; };
+		A53AD55F15A48BD3009A82C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A53AD55D15A48BD3009A82C6 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A53AD54415A48BD3009A82C6 /* DrawRectRandomness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawRectRandomness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53AD54815A48BD3009A82C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A53AD54B15A48BD3009A82C6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A53AD54C15A48BD3009A82C6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A53AD54D15A48BD3009A82C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A53AD55015A48BD3009A82C6 /* DrawRectRandomness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawRectRandomness-Info.plist"; sourceTree = "<group>"; };
+		A53AD55215A48BD3009A82C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A53AD55415A48BD3009A82C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53AD55615A48BD3009A82C6 /* DrawRectRandomness-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawRectRandomness-Prefix.pch"; sourceTree = "<group>"; };
+		A53AD55815A48BD3009A82C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A53AD55A15A48BD3009A82C6 /* DHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHDAppDelegate.h; sourceTree = "<group>"; };
+		A53AD55B15A48BD3009A82C6 /* DHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDAppDelegate.m; sourceTree = "<group>"; };
+		A53AD55E15A48BD3009A82C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53AD54115A48BD3009A82C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53AD54915A48BD3009A82C6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53AD53915A48BD3009A82C6 = {
+			isa = PBXGroup;
+			children = (
+				A53AD54E15A48BD3009A82C6 /* DrawRectRandomness */,
+				A53AD54715A48BD3009A82C6 /* Frameworks */,
+				A53AD54515A48BD3009A82C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53AD54515A48BD3009A82C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53AD54415A48BD3009A82C6 /* DrawRectRandomness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53AD54715A48BD3009A82C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A53AD54815A48BD3009A82C6 /* Cocoa.framework */,
+				A53AD54A15A48BD3009A82C6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A53AD54A15A48BD3009A82C6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A53AD54B15A48BD3009A82C6 /* AppKit.framework */,
+				A53AD54C15A48BD3009A82C6 /* CoreData.framework */,
+				A53AD54D15A48BD3009A82C6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A53AD54E15A48BD3009A82C6 /* DrawRectRandomness */ = {
+			isa = PBXGroup;
+			children = (
+				A53AD55A15A48BD3009A82C6 /* DHDAppDelegate.h */,
+				A53AD55B15A48BD3009A82C6 /* DHDAppDelegate.m */,
+				A53AD55D15A48BD3009A82C6 /* MainMenu.xib */,
+				A53AD54F15A48BD3009A82C6 /* Supporting Files */,
+			);
+			path = DrawRectRandomness;
+			sourceTree = "<group>";
+		};
+		A53AD54F15A48BD3009A82C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53AD55015A48BD3009A82C6 /* DrawRectRandomness-Info.plist */,
+				A53AD55115A48BD3009A82C6 /* InfoPlist.strings */,
+				A53AD55415A48BD3009A82C6 /* main.m */,
+				A53AD55615A48BD3009A82C6 /* DrawRectRandomness-Prefix.pch */,
+				A53AD55715A48BD3009A82C6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53AD54315A48BD3009A82C6 /* DrawRectRandomness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53AD56215A48BD3009A82C6 /* Build configuration list for PBXNativeTarget "DrawRectRandomness" */;
+			buildPhases = (
+				A53AD54015A48BD3009A82C6 /* Sources */,
+				A53AD54115A48BD3009A82C6 /* Frameworks */,
+				A53AD54215A48BD3009A82C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawRectRandomness;
+			productName = DrawRectRandomness;
+			productReference = A53AD54415A48BD3009A82C6 /* DrawRectRandomness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53AD53B15A48BD3009A82C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DHD;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Douglas Heriot";
+			};
+			buildConfigurationList = A53AD53E15A48BD3009A82C6 /* Build configuration list for PBXProject "DrawRectRandomness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A53AD53915A48BD3009A82C6;
+			productRefGroup = A53AD54515A48BD3009A82C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53AD54315A48BD3009A82C6 /* DrawRectRandomness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53AD54215A48BD3009A82C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53AD55315A48BD3009A82C6 /* InfoPlist.strings in Resources */,
+				A53AD55915A48BD3009A82C6 /* Credits.rtf in Resources */,
+				A53AD55F15A48BD3009A82C6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53AD54015A48BD3009A82C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53AD55515A48BD3009A82C6 /* main.m in Sources */,
+				A53AD55C15A48BD3009A82C6 /* DHDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A53AD55115A48BD3009A82C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53AD55215A48BD3009A82C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A53AD55715A48BD3009A82C6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53AD55815A48BD3009A82C6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A53AD55D15A48BD3009A82C6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53AD55E15A48BD3009A82C6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53AD56015A48BD3009A82C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A53AD56115A48BD3009A82C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A53AD56315A48BD3009A82C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawRectRandomness/DrawRectRandomness-Prefix.pch";
+				INFOPLIST_FILE = "DrawRectRandomness/DrawRectRandomness-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A53AD56415A48BD3009A82C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawRectRandomness/DrawRectRandomness-Prefix.pch";
+				INFOPLIST_FILE = "DrawRectRandomness/DrawRectRandomness-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53AD53E15A48BD3009A82C6 /* Build configuration list for PBXProject "DrawRectRandomness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53AD56015A48BD3009A82C6 /* Debug */,
+				A53AD56115A48BD3009A82C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53AD56215A48BD3009A82C6 /* Build configuration list for PBXNativeTarget "DrawRectRandomness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53AD56315A48BD3009A82C6 /* Debug */,
+				A53AD56415A48BD3009A82C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53AD53B15A48BD3009A82C6 /* Project object */;
+}
