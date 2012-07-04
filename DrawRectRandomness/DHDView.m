@@ -8,13 +8,17 @@
 
 #import "DHDView.h"
 
+@interface DHDView()
+@property (strong) NSGradient *gradient;
+@end
+
 @implementation DHDView
 
 - (id)initWithFrame:(NSRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code here.
+		self.gradient = [[NSGradient alloc] initWithColors:@[[NSColor blackColor], [NSColor whiteColor]]];
     }
     
     return self;
@@ -22,8 +26,7 @@
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-	[[NSColor colorWithDeviceHue:arc4random_uniform(360)/360.0 saturation:1.0 brightness:1.0 alpha:1.0] set];
-	NSRectFill(dirtyRect);
+	[self.gradient drawInRect:dirtyRect angle:45.0];
 }
 
 @end
