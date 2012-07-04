@@ -22,7 +22,8 @@
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-    // Drawing code here.
+	[[NSColor colorWithDeviceHue:arc4random_uniform(360)/360.0 saturation:1.0 brightness:1.0 alpha:1.0] set];
+	NSRectFill(dirtyRect);
 }
 
 @end
