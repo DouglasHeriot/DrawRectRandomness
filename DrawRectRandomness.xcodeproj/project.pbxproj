@@ -13,6 +13,7 @@
 		A53AD55915A48BD3009A82C6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A53AD55715A48BD3009A82C6 /* Credits.rtf */; };
 		A53AD55C15A48BD3009A82C6 /* DHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AD55B15A48BD3009A82C6 /* DHDAppDelegate.m */; };
 		A53AD55F15A48BD3009A82C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A53AD55D15A48BD3009A82C6 /* MainMenu.xib */; };
+		A53AD56715A48BF0009A82C6 /* DHDView.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AD56615A48BF0009A82C6 /* DHDView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A53AD55A15A48BD3009A82C6 /* DHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHDAppDelegate.h; sourceTree = "<group>"; };
 		A53AD55B15A48BD3009A82C6 /* DHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDAppDelegate.m; sourceTree = "<group>"; };
 		A53AD55E15A48BD3009A82C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A53AD56515A48BF0009A82C6 /* DHDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDView.h; sourceTree = "<group>"; };
+		A53AD56615A48BF0009A82C6 /* DHDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				A53AD55B15A48BD3009A82C6 /* DHDAppDelegate.m */,
 				A53AD55D15A48BD3009A82C6 /* MainMenu.xib */,
 				A53AD54F15A48BD3009A82C6 /* Supporting Files */,
+				A53AD56515A48BF0009A82C6 /* DHDView.h */,
+				A53AD56615A48BF0009A82C6 /* DHDView.m */,
 			);
 			path = DrawRectRandomness;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			files = (
 				A53AD55515A48BD3009A82C6 /* main.m in Sources */,
 				A53AD55C15A48BD3009A82C6 /* DHDAppDelegate.m in Sources */,
+				A53AD56715A48BF0009A82C6 /* DHDView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
