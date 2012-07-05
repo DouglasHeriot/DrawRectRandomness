@@ -26,7 +26,7 @@
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-	[self.gradient drawInRect:dirtyRect angle:45.0];
+	[self.gradient drawInRect:self.bounds angle:45.0];
 }
 
 @end
